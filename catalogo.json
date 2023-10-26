@@ -1,0 +1,52 @@
+{
+  "coffee": [
+    {
+      "id": 1,
+      "imagem": "./src/assets/expresso.png",
+      "categoria": "TRADICIONAL",
+      "nomeCafe": "Expresso Tradicional",
+      "descricaoCurta": "O tradicional café feito com água quente e grãos moídos",
+      "price": 5.90
+    },
+    {
+      "imagem": "./src/assets/cafeAmericano.png",
+      "categoria": "TRADICIONAL",
+      "nomeCafe": "Expresso Americano",
+      "descricaoCurta": "Expresso diluído, menos intenso que o tradicional",
+      "price": 6.90,
+      "id": 2
+    },
+    {
+      "imagem": "./src/assets/cafeComLeite.png",
+      "categoria": "TRADICIONAL",
+      "nomeCafe": "Expresso Cremoso",
+      "descricaoCurta": "Café expresso tradicional com espuma cremosa",
+      "price": 9.90,
+      "id": 3
+    },
+    {
+      "imagem": "./src/assets/expressoGelado.png",
+      "categoria": "TRADICIONAL GELADO",
+      "nomeCafe": "Expresso Gelado",
+      "descricaoCurta": "Bebida preparada com café expresso e cubos de gelo",
+      "price": 10.90,
+      "id": 4
+    },
+    {
+      "imagem": "./src/assets/cafeLeite.png",
+      "categoria": "TRADICIONAL COM LEITE",
+      "nomeCafe": "Café com leite",
+      "descricaoCurta": "Meio a meio de expresso tradicional com leite vaporizado",
+      "price": 6.90,
+      "id": 5
+    },
+    {
+      "imagem": "./src/assets/latte.png",
+      "categoria": "TRADICIONAL COM LEITE",
+      "nomeCafe": "Latte",
+      "descricaoCurta": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+      "price": 8.90,
+      "id": 6
+    }
+  ]
+}

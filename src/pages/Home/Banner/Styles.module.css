@@ -1,0 +1,82 @@
+.cafeCopo{
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+    margin-right: -1rem;
+}
+
+main{
+    background: rgb(246, 241, 233);
+    background: linear-gradient(0deg, rgb(246, 241, 233) 0%, var(--background) 100%);
+}
+
+/* .home{
+    height: 34rem;
+    width: 90rem;
+} */
+
+.text{
+    width: 36.75rem;
+    height: 100%;
+    margin-top: 5rem;
+    padding-right: 2rem;
+}
+
+.titulo{
+    justify-content: center;
+}
+
+.titulo h1{
+    font-size: 3rem;
+    color: var(--base-title);
+}
+
+.titulo p{
+    margin-top: 1.5rem;
+    color: var(--base-subtitle);
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.pair tr td span{
+    padding: 8px;
+    margin-left: 0.3rem;
+}
+
+.compra{
+    color: var(--white);
+    background-color: var(--yellow-dark);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.embalagem{
+    margin-left: 0.5rem;
+    color: var(--white);
+    background: var(--base-text);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.time{
+    margin-top: 1rem;
+    color: var(--white);
+    background: var(--yellow);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.coffe{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    color: var(--white);
+    background: var(--purple);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.caracteristicas table tbody tr span{
+    display: flex;
+    margin-top: -2.3rem;
+    margin-left: 2rem;
+}

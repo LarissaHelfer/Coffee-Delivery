@@ -1,0 +1,126 @@
+.nossoCafe {
+  text-align: left;
+    margin-top: 4rem;
+}
+
+.nossoCafe h1{
+    margin-bottom: 4rem;
+}
+
+.cafe {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-content: start;
+}
+
+.cafes {
+  text-align: center;
+  padding: 10px;
+  background: var(--base-card);
+  color: var(--base-text);
+  margin-bottom: 1rem;
+  border-radius: 10px 40px;
+}
+
+.cafes img {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-top: -2rem;
+}
+
+.carac {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tipo{
+    color: var(--yellow-dark);
+    background: var(--yelow-light);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 0.625rem;
+    font-weight: bold;
+}
+
+.carac h2{
+    font-size: 1.25rem;
+    color: var(--base-subtitle);
+    margin-top: 1rem;
+}
+
+.decricao{
+    color: var(--base-label);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.carac section{
+    display: flex;
+    justify-content: space-between;
+    color: var(--base-text);
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+}
+
+.preco span{
+    display: flex;
+    font-size: 14px;
+}
+
+.preco p{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+    
+    display: inline;
+}
+
+.carrinho{
+    display: flex;
+    background-color: var(--base-button);
+    border-radius: 8px;
+    padding: 9px;
+    width: 4.5rem;
+    justify-content: center;
+    margin-top: -0.5rem;
+    height: 2.375rem;
+}
+
+.carrinho .menos,
+.carrinho .mais {
+  cursor: pointer;
+}
+
+.menos{
+    color: var(--purple);
+    margin-right: 5px;
+}
+
+.mais{
+    color: var(--purple);
+    margin-left: 5px;
+}
+
+.carrinho span{
+    color: var(--base-title);
+    margin: 0 2px;
+}
+
+.car{
+    color: var(--white);
+    background: var(--purple-dark);
+    height: 2.375rem;
+    width: 2.375rem;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: -0.5rem;
+    cursor: pointer;
+}
+
+.car:hover{
+    background: #4d0066;
+}

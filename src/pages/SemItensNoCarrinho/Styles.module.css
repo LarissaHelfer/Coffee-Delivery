@@ -1,0 +1,41 @@
+.sad{
+    display: flex;
+    justify-content: center;
+    color: var(--purple-dark);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.happy{
+    display: flex;
+    justify-content: center;
+}
+
+.happy p{
+    color: var(--purple);
+    font-size: 1.7rem;
+}
+
+.carVazio span{
+    text-decoration: none;
+    color: var(--base-subtitle);
+    background-color: var(--yelow-light);
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.retornar{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carCompra{
+    padding-left: 0.2rem;
+}

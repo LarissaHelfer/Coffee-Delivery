@@ -1,0 +1,94 @@
+.main{
+    background: var(--base-card);
+    padding: 2.5rem;
+    width: 40rem;
+    height: 23.25rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.endereco{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--yellow-dark);
+    margin-bottom: 2rem;
+}
+
+.endereco p{
+    color: var(--base-subtitle);
+    font-size: 1rem;
+    margin-top: -1.4rem;
+    margin-left: 1.8rem;
+}
+
+.endereco span{
+    color: var(--base-text);
+    font-size: 0.875rem;
+    margin-left: 1.8rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--base-label);
+}
+
+.form input{
+    margin-right: 1rem;
+    background: var(--base-input);
+    color: var(--base-text);
+    border: 1px solid var(--base-button);
+    padding: 0 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    height: 2.625rem;
+}
+
+.form input:focus, form:focus{
+    border: 1px solid var(--yellow-dark);
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.cep{
+    width: 12.5rem;
+}
+
+.rua{
+    display: flex;
+}
+
+.numero{
+    width: 12.5rem;
+}
+
+.complemento{
+    width: 20.65rem;
+    margin-top: -3.6rem;
+    margin-left: 13.2rem;
+}
+
+.bairro{
+    width: 12.5rem;
+}
+
+.cidade{
+    margin-top: -3.6rem;
+    width: 16.7rem;
+    margin-left: 13.2rem;
+}
+
+.estado{
+    width: 3.4rem;
+    margin-top: -3.6rem;
+    margin-left: 30.5rem;
+}

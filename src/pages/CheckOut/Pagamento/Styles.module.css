@@ -1,0 +1,64 @@
+.pagamento{
+    background: var(--base-card);
+    width: 40rem;
+    height: 12.93rem;
+    padding: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
+.opcoes{
+    float: left;
+    display: flex;
+    
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.opcoes div{
+    background: var(--base-button);
+    width: 11.167rem;
+    color: var(--purple);
+    height: 3.1875rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 6px;
+    cursor: default;
+}
+
+.opcoes div:hover{
+    background: var(--base-hover);
+}
+
+.opcoes div span{
+    font-size: 0.75rem;
+    color: var(--base-text);
+    margin-left: 0.55rem;
+}
+
+.pag{
+    color: var(--purple);
+    margin-bottom: 1rem;
+}
+
+.pag p{
+    color: var(--base-subtitle);
+    margin-top: -1.7rem;
+    margin-left: 1.78rem;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.pag span{
+    color: var(--base-text);
+    margin-left: 1.78rem;
+    font-size: 0.875rem;
+}
+
+.selecionado {
+    border: 1px solid var(--purple);
+}

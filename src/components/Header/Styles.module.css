@@ -1,0 +1,61 @@
+.header img{
+    justify-content: left;
+    display: flex; 
+    z-index: 1000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background);
+    position: sticky;
+    top: 0;
+    height: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 2.4rem;
+  }
+  
+
+.locale{
+    display: flex;
+    justify-content: right;   
+    gap: 12px; 
+}
+
+.localizacao{
+    background: var(--purple-light);
+    color: var(--purple-dark);
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 6px;
+    gap: 4px;
+}
+
+.mapa{
+    color: var(--purple);
+    display: flex;
+    justify-content: right;
+}
+
+.carrinhoCompra{
+    background-color: var(--yelow-light);
+    gap: 12px;
+    color: var(--yellow-dark);
+    border-radius: 6px;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.5rem;
+}
+
+.quantidade{
+    background: var(--yellow-dark);
+    border-radius: 50%;
+    color: var(--white);
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.quant span{
+    display: inline;
+    margin-left: -0.5rem;
+}

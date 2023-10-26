@@ -1,0 +1,19 @@
+.checkout h2{
+    color: var(--base-subtitle);
+    font-size: 1.125rem;
+    margin-top: 1rem;
+}
+
+.pedido{
+    display: flex;
+    justify-content: right;
+    margin-top: -42.2rem;
+    color: var(--base-subtitle);
+    font-size: 1.125rem;
+    margin-right: -1.5rem;
+}
+
+.pedido h2{
+    margin-right: -14.5rem;
+    margin-top: 2.8rem;
+}

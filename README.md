@@ -1,8 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desafio Ignite - Rocket Seat - Coffee Delivery
 
-Currently, two official plugins are available:
+Nesse desafio, você vai desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia, que contém as seguintes funcionalidades:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listagem de produtos (cafés) disponíveis para compra
+- Adicionar uma quantidade específicas de itens no carrinho
+- Aumentar ou remover a quantidade de itens no carrinho
+- Formulário para o usuário preencher o seu endereço
+- Exibir o total de itens no carrinho no Header
+- Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
